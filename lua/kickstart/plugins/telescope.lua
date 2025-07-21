@@ -56,7 +56,9 @@ return {
         --
         defaults = {
           mappings = {
-            i = { ['<c-enter>'] = 'to_fuzzy_refine' },
+            i = {
+              ['<c-enter>'] = 'to_fuzzy_refine',
+            },
           },
         },
         pickers = {},
